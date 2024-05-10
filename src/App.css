@@ -1,0 +1,90 @@
+
+/* css/styles.css */
+/* Add CSS styles here */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightblue; /* Set background color */
+}
+
+.registration-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form input,
+.registration-form button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.registration-form input:focus,
+.registration-form button:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+.registration-form button {
+  background-color: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #1e90ff;
+}
+
+.login-form {
+  margin: 20px auto; /* Add space around the form */
+  padding: 20px;
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px; /* Add space below each input */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center; /* Center-align the text */
+  color: red; /* Set the text color to red */
+  font-size: 24px; /* Set the font size to 24 pixels */
+  font-family: 'Your Designer Font', sans-serif; /* Replace 'Your Designer Font' with the desired font */
+  margin-bottom: 20px; /* Add margin to the bottom to push the content below it down */
+}
